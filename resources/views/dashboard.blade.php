@@ -41,11 +41,42 @@
 
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 {{--  contenido que yo quiera que tenga  --}}
-                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem repellendus architecto dolor eligendi amet tenetur maxime laborum in distinctio, odit eum iure ab quis, molestiae optio neque nam, doloremque praesentium.</P>
-                <P>Ratione labore aspernatur neque? Sint doloribus a necessitatibus suscipit neque aperiam fugit ducimus exercitationem temporibus itaque. Distinctio accusantium veritatis molestiae corporis ex autem error perspiciatis architecto, expedita eaque officiis quas.</P>
-                <P>Expedita quaerat reiciendis officia fugiat facilis asperiores alias, dolor inventore, omnis delectus quis quidem repudiandae? Maxime, quam modi culpa suscipit laborum temporibus dignissimos rem possimus. Omnis accusamus consequuntur eius nobis!</P>
-                <P>Veritatis nulla cupiditate quos quaerat distinctio reprehenderit ex veniam. Vero ducimus, ex harum eos temporibus suscipit id maiores aliquam nostrum praesentium ab blanditiis tempora et accusamus neque placeat ipsa accusantium.</P>
-                <P>Necessitatibus, atque quas. Itaque vero fuga repellendus voluptas adipisci, saepe quam quibusdam, temporibus deserunt, illum inventore praesentium cumque! Cupiditate architecto neque illo ea perspiciatis reiciendis eveniet ipsa quas dolor quod.</P>
+                <h1 class='fs-3 text-center text-secondary'>Nuestros servicios</h1>
+                <div class="container mt-10">
+                  <div class="row">
+                    <div class="col">
+                      <a href="">
+                        <div class="card" style="width: 18rem;">
+                          <img src="{{asset('img/5.jpg')}}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                          </div>
+                        </div>
+                      </a>
+                      
+                    </div>
+                    <div class="col">
+                      <a href="">
+                        <div class="card" style="width: 18rem;">
+                          <img src="{{asset('img/6.jpg')}}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a href="">
+                        <div class="card" style="width: 18rem;">
+                          <img src="{{asset('img/7.jpg')}}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
                 
 
             </div>
