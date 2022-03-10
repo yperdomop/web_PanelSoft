@@ -42,38 +42,35 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 {{--  contenido que yo quiera que tenga  --}}
                 <h1 class='fs-3 text-center text-secondary'>Nuestros servicios</h1>
-                <div class="container mt-10">
+                <div class="container mt-10 mb-5">
                   <div class="row">
                     <div class="col">
-                      <a href="">
                         <div class="card" style="width: 18rem;">
                           <img src="{{asset('img/5.jpg')}}" class="card-img-top" alt="...">
                           <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                            <p class="card-text">Conozca nuestro servicios en línea.</p>
+                            <a href="#" class="stretched-link"></a>
                           </div>
                         </div>
-                      </a>
                       
                     </div>
                     <div class="col">
-                      <a href="">
                         <div class="card" style="width: 18rem;">
                           <img src="{{asset('img/6.jpg')}}" class="card-img-top" alt="...">
                           <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                            <a href="#" class="stretched-link"></a>
                           </div>
                         </div>
-                      </a>
                     </div>
                     <div class="col">
-                      <a href="">
                         <div class="card" style="width: 18rem;">
                           <img src="{{asset('img/7.jpg')}}" class="card-img-top" alt="...">
                           <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                            <a href="#" class="stretched-link"></a>
                           </div>
                         </div>
-                      </a>
                     </div>
                   </div>
                 </div>
